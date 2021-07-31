@@ -150,9 +150,9 @@ const handleCurrencyOneElInput = async (e) => {
   const exchangeRate = await fetchExchangeRate(url);
 
   showUpdateRates(exchangeRate);
-}
+};
 
-timesCurrencyOneEl.addEventListener("input", handleTimesCurrencyOneInput)
+timesCurrencyOneEl.addEventListener("input", handleTimesCurrencyOneInput);
 currencyTwoEl.addEventListener("input", handleCurrencyTwoElInput);
 currencyOneEl.addEventListener("input", handleCurrencyOneElInput);
 
